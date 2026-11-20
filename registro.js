@@ -10,7 +10,7 @@ formularioRegistro.addEventListener("submit", function(event) {
     const control = document.getElementById("control").value.trim();
     const password = document.getElementById("password").value;
     const confirmar = document.getElementById("confirmar").value;
-
+// OTRO COMENTARIO
     // Validar contraseñas
     if (password !== confirmar) {
         alert("Las contraseñas no coinciden.");
