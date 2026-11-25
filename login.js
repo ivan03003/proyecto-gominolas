@@ -1,5 +1,5 @@
 const formulario = document.getElementById("loginForm");
-
+//programadorass
 formulario.addEventListener("submit", function(event) {
     event.preventDefault();
     const control = document.getElementById("control").value.trim();
